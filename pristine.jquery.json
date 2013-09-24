@@ -1,0 +1,34 @@
+{
+    "name": "pristine",
+    "title": "jQuery Pristine",
+    "description": "jQuery plugin for simple, unbloated form validation.",
+    "keywords": [
+        "data",
+        "forms",
+        "validation"
+    ],
+    "version": "0.0.1",
+    "author": {
+        "name": "Nuri Hodges",
+        "url": "https://github.com/nhodges"
+    },
+    "maintainers": [
+        {
+            "name": "Nuri Hodges",
+            "email": "nuri@irunbackwards.com",
+            "url": "http://irunbackwards.com"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "Apache-2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0"
+        }
+    ],
+    "bugs": "https://github.com/nhodges/jquery-pristine/issues",
+    "homepage": "https://github.com/nhodges/jquery-pristine",
+    "docs": "https://github.com/nhodges/jquery-pristine",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
