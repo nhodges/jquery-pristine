@@ -1,5 +1,5 @@
 /**
- * jQuery Pristine v0.0.1
+ * jQuery Pristine v0.0.2
  *
  * Terms of Use - jQuery Pristine
  * under the Apache License v2.0 (http://www.apache.org/licenses/LICENSE-2.0)
