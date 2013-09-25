@@ -11,13 +11,13 @@
 
 (function ( $ ) {
  
-  $.fn.ratify = function( options ) {
+  $.fn.pristine = function( options ) {
  
     var
-      form     = this;
+      form     = this,
       settings = $.extend({
         // settings, maybe?
-      }, options);
+      }, options),
       valid    = true;
 
     $('input, textarea', form).each(function() {
@@ -53,6 +53,12 @@
               }
             }
             break;
+          case /number/.test(type):
+            var re = /[0-9]+/;
+            if ( ! re.test(value) ) {
+              valid = false;
+            }
+            break;
           case /url/.test(type):
             var re = /^(http|https):\/\/[^ "]+$/;
             if ( ! re.test(value) ) {
@@ -60,7 +66,6 @@
             }
             break;
           default:
-            break;
         }
       }
 
